@@ -1,0 +1,77 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+body {
+  background-color: #393E46;
+}
+
+h1 {
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 7rem;
+  color: #4ECCA3;
+}
+
+p {
+  font-size: 2rem;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+}
+
+img {
+  width: 80%;
+  margin-bottom:30px;
+}
+.play-button1,.play-button2{
+  width:150px;
+  margin:0 30px 30px;
+  background-image: url("images/dice6.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  height:150px;
+  background-size: cover;
+  border-radius:10%;
+
+}
+
+footer {
+  margin-top: 5%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+
+}
+
+h3,h5{
+  color:white;
+}
+h3{
+  font-size:1.25rem;
+}
+h5{
+  font-size:1.5rem;
+}
+.switch{
+  margin-bottom:30px;
+}
+
+.scores{
+  width:60%;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:30px;
+  margin-bottom:30px;
+  background-color:#4ECCA3;
+  border:3px solid white;
+  border-radius: 1%;
+}
