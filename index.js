@@ -34,10 +34,8 @@ $(".switch").click(function(){
 
 function game(id)
 {
-  console.log(id);
   randomNumber=Math.random();
   randomNumber=Math.floor(randomNumber*6)+1;
-  console.log(randomNumber);
   var image="images/dice"+randomNumber+".png";
   $(id).css("background-image","url("+image+")");
   if(id===".play-button1")
